@@ -23,6 +23,7 @@ header {
 }
 
 .logo {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 32px;
     font-weight: bold;
     font-style: italic;
