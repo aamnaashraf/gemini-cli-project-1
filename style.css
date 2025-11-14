@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    color: white;
+    /* A gradient that approximates the one in the image */
+    background: linear-gradient(160deg, #4f2799 0%, #4f42c1 30%, #4a90e2 70%, #50e3c2 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    position: absolute;
+    width: calc(100% - 100px);
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+nav a:hover {
+    opacity: 0.8;
+}
+
+.actions button {
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    padding: 8px 22px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 15px;
+    transition: opacity 0.2s, transform 0.2s;
+}
+
+.actions .btn-signup {
+    background: white;
+    color: #4f2799; /* Matching the top gradient color */
+}
+
+.actions button:hover {
+    opacity: 0.9;
+    transform: scale(1.03);
+}
+
+/* Hero Section */
+.hero {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero h1 {
+    font-size: 84px;
+    margin: 0 0 20px 0;
+    line-height: 1.1;
+    font-weight: 500;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    max-width: 600px;
+    line-height: 1.5;
+}
+
+.cta-buttons button {
+    border: none;
+    padding: 16px 32px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: opacity 0.2s, transform 0.2s;
+}
+
+.cta-buttons .btn-primary {
+    background-color: white;
+    color: #333;
+}
+
+.cta-buttons .btn-secondary {
+    background-color: rgba(0, 0, 0, 0.25);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.cta-buttons button:hover {
+    opacity: 0.9;
+    transform: scale(1.03);
+}
+
+/* Decorative elements would go here.
+   For simplicity, they are omitted in this recreation. */
+.decorations {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
