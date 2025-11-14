@@ -4,7 +4,7 @@ body {
     margin: 0;
     color: white;
     /* A gradient that approximates the one in the image */
-    background: linear-gradient(160deg, #4f2799 0%, #4f42c1 30%, #4a90e2 70%, #50e3c2 100%);
+    background: linear-gradient(168deg, #85319e 15%, #4a4aff 45%, #00c4cc 75%);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -23,7 +23,7 @@ header {
 }
 
 .logo {
-    font-size: 28px;
+    font-size: 32px;
     font-weight: bold;
     font-style: italic;
 }
@@ -83,7 +83,7 @@ nav a:hover {
 }
 
 .hero h1 {
-    font-size: 84px;
+    font-size: 120px;
     margin: 0 0 20px 0;
     line-height: 1.1;
     font-weight: 500;
